@@ -1,18 +1,15 @@
-type CityType = {
+type LocalCityType = {
     title: string
     countryTitle: string
 }
-
 type AddressType ={
     streetTitle: string
-    city: CityType
+    city: LocalCityType
 }
-
 type TechType = {
     id: number
     title: string
 }
-
 type studentType = {
     id: number
     name: string
@@ -23,7 +20,7 @@ type studentType = {
 }
 
 const student: studentType = {
-    id: 1,
+    id:     1,
     name: "Dimych",
     age: 32,
     isActive: false,
