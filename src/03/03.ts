@@ -9,4 +9,4 @@ export const addSkill = (student: StudentType, skill: string) => {
         id: new Date().getTime(),
         title: skill
     })
-}
+};
