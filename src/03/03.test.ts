@@ -1,4 +1,4 @@
-import {StudentType} from "../02/02";
+sximport {StudentType} from "../02/02";
 import {addSkill} from "./03";
 
 let student: StudentType;
@@ -32,7 +32,7 @@ beforeEach(() => {
     }
 })
 
-test("new tech skill should be added to student", ()=>{
+test("new tech skill should be added to student", ()=> {
     expect(student.technologies.length).toBe(3);
 
     addSkill(student, "JS")
